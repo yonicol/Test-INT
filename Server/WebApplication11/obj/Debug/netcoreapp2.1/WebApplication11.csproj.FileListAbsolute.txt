@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\WebApplication11\WebApplication11\bin\Debug\netcoreapp2.1\WebApplication11.deps.json
+C:\Users\User\source\repos\WebApplication11\WebApplication11\bin\Debug\netcoreapp2.1\WebApplication11.runtimeconfig.json
+C:\Users\User\source\repos\WebApplication11\WebApplication11\bin\Debug\netcoreapp2.1\WebApplication11.runtimeconfig.dev.json
+C:\Users\User\source\repos\WebApplication11\WebApplication11\bin\Debug\netcoreapp2.1\WebApplication11.dll
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.AssemblyInfo.cs
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\WebApplication11\WebApplication11\bin\Debug\netcoreapp2.1\WebApplication11.pdb
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.dll
+C:\Users\User\source\repos\WebApplication11\WebApplication11\obj\Debug\netcoreapp2.1\WebApplication11.pdb
