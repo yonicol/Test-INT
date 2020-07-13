@@ -1,0 +1,19 @@
+<div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <h3>Add a new task</h3>
+      <form [formGroup]="newUserForm" (ngSubmit)="registerUser()">
+          <label>Task title:<br><input type="text" formControlName="Title" minlength="4" name="Title" id="Title" required/></label>
+          <p *ngIf="!newUserForm.controls.Title.valid && newUserForm.controls.Title.touched">You need to have a Title.</p>
+          <label>Task description:<br><input type="text" formControlName="Description" minlength="4" name="Description" id="Description" required/></label>
+          <p *ngIf="!newUserForm.controls.Description.valid && newUserForm.controls.Description.touched">You need to have a Description.</p>
+          <label>Task date:<br><input type="date" formControlName="Date" id="Date" required/></label>
+          <p *ngIf="!newUserForm.controls.Date.valid && newUserForm.controls.Date.touched">You need to have a email.</p>
+          <button [disabled]="!newUserForm.valid" class="signupbutton">Register</button>
+      </form>
+    </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <span (click)="openNav()">Add task</span>
+    <main>a</main>
+  </div>

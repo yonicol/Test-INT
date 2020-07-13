@@ -1,0 +1,27 @@
+<div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <h3>Add a new task</h3>
+      <form [formGroup]="newTaskForm" (ngSubmit)="AddnewTask()">
+          <label>Task title:<br><input type="text" formControlName="Title" minlength="4" name="Title" id="Title" required/></label>
+          <p *ngIf="!newTaskForm.controls.Title.valid && newTaskForm.controls.Title.touched">You need to have a Title.</p>
+          <label>Task description:<br><input type="text" formControlName="Description" minlength="4" name="Description" id="Description" required/></label>
+          <p *ngIf="!newTaskForm.controls.Description.valid && newTaskForm.controls.Description.touched">You need to have a Description.</p>
+          <label>Task date:<br><input type="date" formControlName="Date" id="Date" required/></label>
+          <p *ngIf="!newTaskForm.controls.Date.valid && newTaskForm.controls.Date.touched">You need to have a email.</p>
+          <button [disabled]="!newTaskForm.valid" class="signupbutton">Register</button>
+      </form>
+    </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <span (click)="openNav()">Add task</span>
+    <main id="main">
+      <div *ngFor="let task of tasks" class="divs">
+        <h3>Task title: {{task.tasktitle}}</h3>
+        <span>Task id: {{task.id}}</span>
+        <span>Task description: {{task.taskdescription}}</span>
+        <span>Task date: {{task.taskdate}}</span>
+        <button (click)="DeleteTask(task.id)">Delete user</button><button (click)="EditTask(task.id)">Edit user</button>
+    </div>
+    </main>
+  </div>

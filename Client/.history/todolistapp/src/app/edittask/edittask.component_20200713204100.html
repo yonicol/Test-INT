@@ -1,0 +1,10 @@
+<div>
+    <h1>Edit you user!</h1>
+    <div class="divs">
+        <span>Task id: <input type="number" disabled placeholder="{{tasktoedit.Id}}" #id value="tasktoedit.id"></span>
+        <span>Task title: <input type="text" placeholder="{{tasktoedit.tasktitle}}" #tasktitle></span>
+        <span>Task description: <input type="text" placeholder="{{tasktoedit.taskdescription}}" #taskdescription></span>
+        <span>Task date: <input type="date" placeholder="{{tasktoedit.taskdate}}" #taskdate></span>
+        <button (click)="SendTaskToUpdate(id.value, tasktitle.value, taskdescription.value, taskdate.value)">Edit user</button>
+    </div>
+</div>

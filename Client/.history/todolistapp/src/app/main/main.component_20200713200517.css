@@ -1,0 +1,43 @@
+.sidenav {
+  text-align: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(3, 70, 3);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+  transition: linear .5s;
+  padding: 20px;
+}
+.sidenav a:hover {
+   color: #f1f1f1;
+}
+label{
+    display: block;
+  }
+  .divs{
+    border: solid 1px black;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+span{
+  display: block;
+}
+h3{
+  background-color: rgb(3, 70, 3);
+  padding: 5px;
+}

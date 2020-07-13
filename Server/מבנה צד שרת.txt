@@ -1,0 +1,9 @@
+שם המסד נתונים: Todolistdb
+שם הטבלה: tasks
+טבלה אחת בה יש:
+עמודה של Id - number - אוטומטי (int)
+עמודה של Tasktitle - text
+עמודה של Taskdescription - text
+עמודה של Taskdate - text
+
+using Microsoft.EntityFrameworkCore v2.1.1

@@ -1,0 +1,12 @@
+<div>
+    <h1>Edit you user!</h1>
+    <div class="divs">
+        <span>User id: <input type="number" disabled placeholder="{{usertoedit.id}}" #id value="usertoedit.id"></span>
+        <span>Name: <input type="text" placeholder="{{usertoedit.name}}" #name></span>
+        <span>Username: <input type="text" placeholder="{{usertoedit.userName}}" #username></span>
+        <span>Email: <input type="text" placeholder="{{usertoedit.email}}" #email></span>
+        <span>Address: <input type="text" placeholder="{{usertoedit.address}}" #address></span>
+        <span>Phone: <input type="text" placeholder="{{usertoedit.phoneNumber}}" #phone></span>
+        <button (click)="SendUserToUpdate(id.value, name.value, username.value, email.value, address.value, phone.value)">Edit user</button>
+    </div>
+</div>

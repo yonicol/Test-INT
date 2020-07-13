@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+}
+span{
+    display: block;
+}
+.divs{
+    border: solid 1px black;
+    display: inline-block;
+    margin: 10px;
+}
